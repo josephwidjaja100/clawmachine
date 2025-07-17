@@ -181,10 +181,7 @@ function drawDinosaur(dino) {
     drawPixelRect(x + w - 6, y + 20, 4, 12, dino.color);
     drawPixelRect(x + w - 4, y + 24, 4, 8, dino.color);
     
-    // Subtle outline
-    ctx.strokeStyle = 'rgba(0,0,0,0.3)';
-    ctx.lineWidth = 1;
-    ctx.strokeRect(x + 8, y + 4, w - 16, h - 8);
+    // Removed the outline code that was here
 }
 
 // Helper function to lighten color
